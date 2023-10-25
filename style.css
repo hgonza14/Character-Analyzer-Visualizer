@@ -1,0 +1,33 @@
+svg {
+  width: 580px;
+  height: 500px;
+  background-color: white;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+}
+
+.myContainer {
+  margin: auto;
+  max-width: 1210px;
+  overflow: hidden;
+}
+
+.chart-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+#bar_div,
+#pie_div {
+  width: 50%;
+  min-width: 605px;
+  box-sizing: border-box;
+  padding: 10px;
+  float: left;
+}
+
+#bar_div {
+  float: right;
+}
